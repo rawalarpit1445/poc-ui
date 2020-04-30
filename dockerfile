@@ -4,9 +4,6 @@ RUN mkdir -p /home/project/app
 WORKDIR /home/project/app
 
 COPY app.py /home/project/app/
-ADD templates /home/project/app/templates
-ADD static /home/project/app/static
-ADD analytics /home/project/app/analytics
 
 COPY requirements.txt /home/project/app
 
